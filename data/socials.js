@@ -1,7 +1,7 @@
 // contains the socials links
 export default {
-    github: 'https://github.com/alanJames00/',
-    linkedin: 'https://www.linkedin.com/in/alan-james-in/',
-    blog: 'https://blog.alanj.live/',
-    twitter: 'https://x.com/CoffeeOverFloww/'
-}
+  github: "https://github.com/amoghkrishna55/",
+  linkedin: "https://www.linkedin.com/in/amoghkrishna55/",
+  blog: "https://google.com/",
+  twitter: "https://x.com/amoghkrishna5/",
+};

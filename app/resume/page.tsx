@@ -1,115 +1,138 @@
-import { Mail, Phone, Linkedin, Github, MapPin } from 'lucide-react'
+import { Mail, Phone, Linkedin, Github, MapPin } from "lucide-react";
 
-export default function Page(){
+export default function Page() {
   return (
-    <div className="max-w-4xl mx-auto p-8  shadow-lg">
+    <div className="max-w-4xl mx-auto p-8 shadow-lg">
       <header className="mb-8">
-        <h1 className="text-4xl font-bold mb-2">ALAN JAMES</h1>
+        <h1 className="text-4xl font-bold mb-2">AMOGH KRISHNA</h1>
         <div className="flex flex-wrap gap-4 text-sm">
-          <div className="flex items-center"><Phone className="w-4 h-4 mr-2" /> +91-9074697376</div>
-          <div className="flex items-center"><Mail className="w-4 h-4 mr-2" /> alanjames6282@gmail.com</div>
-          <div className="flex items-center"><Linkedin className="w-4 h-4 mr-2" /> alan-james-in</div>
-          <div className="flex items-center"><Github className="w-4 h-4 mr-2" /> alanjames00</div>
-          <div className="flex items-center"><MapPin className="w-4 h-4 mr-2" /> Jalandhar City, Punjab, India</div>
+          <div className="flex items-center">
+            <Phone className="w-4 h-4 mr-2" /> +91 8861043472
+          </div>
+          <div className="flex items-center">
+            <Mail className="w-4 h-4 mr-2" /> amoghkrishna55@gmail.com
+          </div>
+          <div className="flex items-center">
+            <Linkedin className="w-4 h-4 mr-2" /> amoghkrishna55
+          </div>
+          <div className="flex items-center">
+            <Github className="w-4 h-4 mr-2" /> amoghkrishna55
+          </div>
+          <div className="flex items-center">
+            <MapPin className="w-4 h-4 mr-2" /> Bangalore, Karnataka, India
+          </div>
         </div>
       </header>
 
-
       <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">EXPERIENCE</h2>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold">Backend Engineer</h3>
-          <div className="text-sm">
-            <p className="font-medium">SampurnKart</p>
-            <p>Jalandhar, India | Oct 2023 - Mar 2024</p>
-          </div>
-          <ul className="list-disc list-inside text-sm mt-2">
-            <li>Engineered the complete backend systems for the ecommerce service startup.</li>
-            <li>Developed Various Internal Tools that power day-to-day company operations.</li>
-            <li>Implemented robust and scalable cloud infrastructure for the organization.</li>
-            <li>Reduced cloud expenses by 50% through migration and optimization of the cloud infrastructure.</li>
-          </ul>
-        </div>
+        <h2 className="text-2xl font-semibold mb-2">OBJECTIVE</h2>
+        <p className="text-sm">
+          A Computer Science student skilled in machine learning and full-stack
+          development, with proficiency in Python, C++, Java, TypeScript, Swift,
+          and Rust. I aim to enhance my coding expertise and contribute to
+          impactful software projects. With experience in tools like TensorFlow,
+          React, and NodeJS, and frameworks like PyTorch and Scikit-learn, I
+          seek to apply my problem-solving skills to real-world challenges. I am
+          eager to grow as a developer and contribute to meaningful,
+          cutting-edge technologies.
+        </p>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">EDUCATION</h2>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold">B.Tech In Computer Science And Engineering</h3>
+          <h3 className="text-lg font-semibold">
+            Bachelor of Technology in Computer Science and Engineering
+          </h3>
           <div className="text-sm">
             <p className="font-medium">Lovely Professional University</p>
-            <p>Jalandhar, India | Aug 2022 - Present</p>
-            <p>GPA: 8.85/10.00</p>
+            <p>Jalandhar, Punjab | 2026</p>
+            <p>CGPA: 8.05</p>
+            <p>
+              Relevant Coursework: Data Structures and Algorithms, Operating
+              Systems, Database Management Systems, Artificial Intelligence,
+              Computer Networks, Software Engineering
+            </p>
           </div>
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold">Secondary Education</h3>
+          <h3 className="text-lg font-semibold">
+            Senior Secondary School Certificate (12th Grade)
+          </h3>
           <div className="text-sm">
-            <p className="font-medium">St Thomas HSS Thomapuram</p>
-            <p>Kasargod, Kerala, India | Aug 2021</p>
-            <p>GPA: 9.95/10</p>
+            <p className="font-medium">Narayana PU College</p>
+            <p>Bangalore, Karnataka | 2022</p>
+            <p>Percentage: 89%</p>
+            <p>
+              Key Subjects: Physics, Chemistry, Mathematics, Computer Science
+            </p>
           </div>
         </div>
+        <div className="mb-4">
+          <h3 className="text-lg font-semibold">
+            Secondary School Certificate (10th Grade)
+          </h3>
+          <div className="text-sm">
+            <p className="font-medium">The New Indian School</p>
+            <p>Riffa, Bahrain | 2020</p>
+            <p>Percentage: 89%</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-8">
+        <h2 className="text-2xl font-semibold mb-2">TECHNICAL SKILLS</h2>
+        <ul className="list-disc list-inside text-sm">
+          <li>
+            <span className="font-medium">Programming Languages:</span> Python,
+            C++, Java, TypeScript, Swift, Rust
+          </li>
+          <li>
+            <span className="font-medium">Tools/Technologies:</span> Figma,
+            Transformers, NodeJS, After Effects, Davinci Resolve, ExpressJS
+          </li>
+          <li>
+            <span className="font-medium">Operating Systems:</span> Mac OS,
+            Linux
+          </li>
+          <li>
+            <span className="font-medium">Databases:</span> MySQL, MongoDB,
+            PostgreSQL
+          </li>
+          <li>
+            <span className="font-medium">Frameworks:</span> Scikit-learn,
+            TensorFlow, NumPy, Pandas, React, Svelte, Streamlit, Tauri,
+            React-Native
+          </li>
+        </ul>
       </section>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">PROJECTS</h2>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold">Runx: A high-speed online code compiler service engine</h3>
-          <p className="text-sm font-medium">Oct 2023 - Nov 2023</p>
-          <p className="text-sm">Tools: Docker, Nodejs, Express, Linux, Shellscript</p>
-          <ul className="list-disc list-inside text-sm mt-2">
-            <li>Implemented isolated environments for secure and interference-free code execution using containerization</li>
-            <li>Added support for multiple languages including C, C++, Python, and JavaScript</li>
-            <li>Optimized for near-local compilation and runtime speeds</li>
-            <li>Engineered truly parallel code execution for multiple requests simultaneously</li>
-          </ul>
+          <h3 className="text-lg font-semibold">SixthSense</h3>
+          <p className="text-sm font-medium">
+            Tools: ExpressJS, React-Native, TensorFlow
+          </p>
+          <p className="text-sm">
+            Description: SixthSense is a revolutionary mobile application
+            designed to transform how visually impaired individuals navigate and
+            interact with the world around them. Our mission is to enhance
+            awareness, promote independence, and improve the quality of life for
+            the blind community.
+          </p>
         </div>
         <div className="mb-4">
-          <h3 className="text-lg font-semibold">PairCode: Real-time collaborative code editor</h3>
-          <p className="text-sm font-medium">Dec 2023</p>
-          <p className="text-sm">Tools: Nodejs, ExpressJs, NextJs, Websockets, Docker</p>
-          <ul className="list-disc list-inside text-sm mt-2">
-            <li>Developed a real-time collaborative code editor for pair programming and interviews</li>
-            <li>Implemented a modern online code editor with syntax highlighting and code suggestions</li>
-            <li>Made use of Websockets for real-time collaboration</li>
-            <li>Implemented a built-in compiler supporting more than 10 programming languages</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">SKILLS</h2>
-        <ul className="list-disc list-inside text-sm">
-          <li><span className="font-medium">Programming Languages:</span> Javascript/Typescript, NodeJs, C/C++, Python, Golang, HTML/CSS, SQL, Shell</li>
-          <li><span className="font-medium">Web Technologies:</span> ReactJs, NextJS, ExpressJs, REST APIs, API Development</li>
-          <li><span className="font-medium">Database Systems:</span> PostgreSQL, MySQL, MongoDB, SQLite, Redis</li>
-          <li><span className="font-medium">Cloud Technologies:</span> Google Cloud, Azure, AWS, Cloudflare Stack, DigitalOcean</li>
-          <li><span className="font-medium">DevOps & Version Control:</span> Git/Github, CI/CD, Github Actions, Docker, Docker Compose</li>
-          <li><span className="font-medium">Specialized Area:</span> API Development, Database Design And Development, Realtime Systems, Microservice Architecture, Linux</li>
-          <li><span className="font-medium">Other Skills:</span> API Security, Backend Security, Cybersecurity</li>
-        </ul>
-      </section>
-
-      <section className="mb-8">
-        <h2 className="text-2xl font-semibold mb-2">HONORS AND AWARDS</h2>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold">NASA Space App Hackathon Global Finalist Nominee</h3>
-          <p className="text-sm font-medium">Space App Challenge, NASA | Oct 2023</p>
-          <ul className="list-disc list-inside text-sm mt-2">
-            <li>Secured first position in IIT KGP Local Round and became one of the top 50 teams from India.</li>
-            <li>Built a moonquakes computer simulation for visualizing moonquakes happened over years.</li>
-          </ul>
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold">RCS CTF 2023 Third Position</h3>
-          <p className="text-sm font-medium">Capture The Flag University Level, LPU | Jan 2024</p>
-          <ul className="list-disc list-inside text-sm mt-2">
-            <li>Secured third position in the university level Capture The Flag Competition</li>
-            <li>Honed Cybersecurity Skills for continous 24-Hour Challenge.</li>
-          </ul>
+          <h3 className="text-lg font-semibold">CodeCrafter</h3>
+          <p className="text-sm font-medium">Tools: NodeJS, PyTorch, Swift</p>
+          <p className="text-sm">
+            Description: An application designed to answer code-related
+            questions. It generates answers using the Falcon-7B model locally on
+            my machine. Independently completed, demonstrating self-reliance and
+            proficiency.
+          </p>
         </div>
       </section>
     </div>
-  )
+  );
 }
