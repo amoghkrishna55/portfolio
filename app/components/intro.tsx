@@ -1,18 +1,18 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import LocationInfo from "./locationInfo";
 
 export default function HomePage() {
-  const [isVisible, setIsVisible] = useState(true);
+  // const [isVisible, setIsVisible] = useState(true);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIsVisible((prev) => !prev);
-    }, 700); // Change the interval time (in milliseconds) to control blinking speed
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIsVisible((prev) => !prev);
+  //   }, 700); // Change the interval time (in milliseconds) to control blinking speed
 
-    return () => clearInterval(interval); // Cleanup the interval on component unmount
-  }, []);
+  //   return () => clearInterval(interval); // Cleanup the interval on component unmount
+  // }, []);
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
